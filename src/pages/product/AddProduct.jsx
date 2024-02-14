@@ -39,7 +39,7 @@ if (error) {
   return (
     <>
     <div className={styles['add-header']}>      
-      <span className="material-symbols-outlined" style={{cursor: 'pointer'}} onClick={() => navigate(-1)}>
+      <span className="material-symbols-outlined" style={{cursor: 'pointer'}}  onClick={() => navigate(-1)}>
       arrow_back
       </span>
       <TypographyTitle className={styles['add-title']}>Create Product</TypographyTitle>
