@@ -1,0 +1,14 @@
+.logo{
+    margin-left: 28px;
+    height: 30px;
+    margin-top: 20px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-35%);
+}

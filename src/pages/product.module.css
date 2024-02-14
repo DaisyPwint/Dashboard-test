@@ -1,0 +1,35 @@
+.header,.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    margin-bottom: 30px;
+}
+.action{
+    gap: 20px;
+}
+.table{
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.form-container{
+    padding: 0 40px;
+}
+.btn-group{
+    text-align: right;
+    margin-top: 5px;
+}
+.btn-group button{
+    width: 150px;
+}
+.add-header{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .add-header:nth-child(2){
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
